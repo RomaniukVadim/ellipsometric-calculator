@@ -46,7 +46,7 @@
       cf1=CSQRT(1-sin(f)**2/(e1*e1))
       cf2=CSQRT(1-sin(f)**2/(e2*e2))
       cf3=CSQRT(1-sin(f)**2/(e3*e3))
-      r01=(e1*cos(f)-cf1)/(e1*cos(f)+cf1)
+      r01p=(e1*cos(f)-cf1)/(e1*cos(f)+cf1)
       r12p=(e2*cf1-e1*cf2)/(e2*cf1+e1*cf2)
       r23p=(e3*cf2-e2*cf3)/(e3*cf2+e2*cf3)
       r01s=(cos(f)-e1*cf1)/(cos(f)+e1*cf1)
