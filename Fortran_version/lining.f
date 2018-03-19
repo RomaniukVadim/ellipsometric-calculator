@@ -60,8 +60,8 @@
       write(2,100)ff,co,t,n,x,i
       write(*,100)ff,co,t,n,x,i
  333  format(3x,'F',10x,'COS(^)',8x,'TAN(ksi)',6x,'N',10x,'X',6x,'i')
- 334  format()
- 100  format(1x,f5.2,2(2x,f12.5),2)
+ 334  format(3x,'F',12x,'COS(^)',11x,'TAN(ksi)',9x,'N2',12x,'X2',8x,'i')
+ 100  format(1x,f5.2,2(2x,f12.5),2(2x,f9.4),2x,i3)
       write(*,*) "Continue? 1, new approxim. values N0 and X0 2, stop 0"
       read(*,*)j
       if(j.eq.2) goto 56
