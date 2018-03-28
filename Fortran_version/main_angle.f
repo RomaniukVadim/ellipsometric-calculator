@@ -1,5 +1,6 @@
       program MainAngle
 !     ------Programm for calculation main angle and ellipticity-------
+      intejer j
       real ff,q,d1,d2,ksi,delta,u,z,k1,k2,k3
       complex e1,e2,e3
       parameter (pi=3.1415926)
