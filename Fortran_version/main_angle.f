@@ -11,8 +11,6 @@
       open(1,file='EXIT.dat')
       write(*,*) 'Input thicknessis d1 and d2'
       read(*,*)d1,d2
-      write(*,*) 'Input thicknessis d1 and d2'
-      read(*,*)d1,d2
  1    write(*,*) 'Input maximal angle of incidence'
       read(*,*)W
       write(*,*) 'Input minimal angle of incidence'
