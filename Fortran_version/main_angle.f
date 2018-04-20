@@ -1,5 +1,6 @@
       program MainAngle
 !     ------Programm for calculation main angle and ellipticity-------
+      intejer j
       real ff,q,d1,d2,ksi,delta,u,z,k1,k2,k3
       complex e1,e2,e3
       parameter (pi=3.1415926)
@@ -9,8 +10,6 @@
       write(*,*) 'Input length of wave'
       read(*,*)q
       open(1,file='EXIT.dat')
-      write(*,*) 'Input thicknessis d1 and d2'
-      read(*,*)d1,d2
       write(*,*) 'Input thicknessis d1 and d2'
       read(*,*)d1,d2
  1    write(*,*) 'Input maximal angle of incidence'
