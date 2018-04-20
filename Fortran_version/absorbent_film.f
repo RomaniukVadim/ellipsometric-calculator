@@ -22,7 +22,7 @@
       call FZU(z0,u0,e2)
       if(ABS(t-z0).le.a1.and.ABS(co-u0).le.a2) goto 20
 !     *************************************************************
-      e2=cmplx(n+h1,-x)
+      te2=cmplx(n+h1,-x)
       call FZU(dz1,du1,e2)
       e2=cmplx(n-h1,-x)
       call FZU(dz2,du2,e2)
